@@ -1,0 +1,80 @@
+.pagination {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+     
+}
+
+.buttons span {
+    background-color: #f0f0f0;
+    border: 1px solid black;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.buttons span:hover {
+    background-color: #e0e0e0;
+}
+
+.buttons span.active {
+    background-color: #ccc;
+    border-color: #bbb;
+}
+
+#buttons{
+    font-family: Arial, sans-serif;
+        font-size: 16px;
+        margin: 20px;
+        display: flex;
+            justify-content: center;
+           
+}
+#buttons span {
+    background-color: #f0f0f0;
+        border: 1px solid #ddd;
+        padding: 10px 20px;
+        cursor: pointer;
+}
+#buttons span:hover {
+    background-color: #e0e0e0;
+}
+
+#buttons span.active {
+    background-color: #ccc;
+    border-color: #bbb;
+}
+.table-responsive {
+    margin: 20px auto;
+    width: 80%;
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+}
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th,
+.table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.table th {
+    background-color: #f0f0f0;
+}
+
+#title{
+ text-align: center;
+}
+#description{
+    text-align: center;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+}
